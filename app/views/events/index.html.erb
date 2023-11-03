@@ -1,0 +1,15 @@
+
+<% if user_signed_in? %>
+  Welcome <%= current_user.email %> |
+  <%= link_to "Logout", destroy_user_session_path, method: :get %>
+<%= button_to "Create Event A", create_event_a_path, method: :post %>
+<br>
+<%= button_to "Create Event B", create_event_b_path, method: :post %>
+<br>
+<%= button_to "Send email for b", send_email_for_b_path, method: :post %>  
+<% else %>
+  <%= link_to "Login", new_user_session_path %> |
+  <%= link_to "Register", new_user_registration_path %>
+<% end %>
+<br>
+<br>
