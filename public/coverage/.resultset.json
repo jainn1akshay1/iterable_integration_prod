@@ -1,0 +1,128 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/akshayjain/Documents/iterable_integration_prod/spec/factories/users.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          4,
+          4,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/akshayjain/Documents/iterable_integration_prod/app/models/user.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/akshayjain/Documents/iterable_integration_prod/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/akshayjain/Documents/iterable_integration_prod/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/akshayjain/Documents/iterable_integration_prod/app/helpers/events_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/akshayjain/Documents/iterable_integration_prod/app/controllers/events_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          0,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/akshayjain/Documents/iterable_integration_prod/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/akshayjain/Documents/iterable_integration_prod/app/models/event.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/akshayjain/Documents/iterable_integration_prod/app/controllers/my_module/iterable_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1699338629
+  }
+}

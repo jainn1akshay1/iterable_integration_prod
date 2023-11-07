@@ -2023,3 +2023,67 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 5124)
 
 
+Started GET "/" for ::1 at 2023-11-06 21:47:23 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-11-06 21:47:24 +0530
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  Rendered events/index.html.erb within layouts/application (Duration: 23.1ms | Allocations: 1233)
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  Rendered events/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 291.1ms | Allocations: 64860)
+Completed 200 OK in 331ms (Views: 323.1ms | ActiveRecord: 0.0ms | Allocations: 67835)
+
+
+  Rendered layout layouts/application.html.erb (Duration: 271.6ms | Allocations: 66992)
+Completed 200 OK in 273ms (Views: 272.6ms | ActiveRecord: 0.0ms | Allocations: 67241)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-11-06 21:47:26 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.6ms | Allocations: 690)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 14.7ms | Allocations: 3462)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 6995)
+Completed 200 OK in 67ms (Views: 24.0ms | ActiveRecord: 1.0ms | Allocations: 22751)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-11-06 21:47:28 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"akshay@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "akshay@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 303 See Other in 335ms (ActiveRecord: 0.2ms | Allocations: 6830)
+
+
+Started GET "/" for ::1 at 2023-11-06 21:47:28 +0530
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:2
+  Rendered events/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1237)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 4773)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.3ms | Allocations: 5021)
+
+
+Started GET "/" for ::1 at 2023-11-06 21:50:35 +0530
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:2
+  Rendered events/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1141)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 4603)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.1ms | Allocations: 4851)
+
+
+Started GET "/public/coverage/index.html" for ::1 at 2023-11-07 12:02:18 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/public/coverage/index.html"):
+  
